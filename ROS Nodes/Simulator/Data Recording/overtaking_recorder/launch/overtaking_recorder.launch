@@ -1,0 +1,9 @@
+<launch>
+    <rosparam command="load" file="$(find overtaking_recorder)/settings.yaml"/>
+    <node pkg="overtaking_recorder" name="overtaking_recorder" type="overtaking_recorder">
+      <param name="car_name" type="str" value="f1tenth_car" />
+      <param name="nav_drive_topic" type="str" value="/vesc/high_level/ackermann_cmd_mux/input/nav_0" />
+      <param name="scan_topic" type="str" value="/scan" />
+      <param name="speed" type="double" value="2.5" />
+    </node>
+</launch>

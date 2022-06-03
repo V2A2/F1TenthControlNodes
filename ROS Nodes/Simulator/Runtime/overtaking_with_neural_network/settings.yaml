@@ -1,0 +1,13 @@
+wheelbase: 0.28 # meters
+width: 0.56 # meters
+max_speed: 7. #  meters/second
+max_steering_angle: 0.4189 # radians
+max_accel: 1.7 # meters/second^2
+max_decel: 1.7 # meters/second^2
+/link_topic: "/gazebo/link_states"
+/model_topic: "/gazebo/model_states"
+/lane_follow_path: "/home/ryan/ryan_brown_ws/src/control_nodes/overtaking_with_neural_network/laneFollowerNetwork.pt"
+/right_turn_path: "/home/ryan/ryan_brown_ws/src/control_nodes/overtaking_with_neural_network/rightTurnNetwork.pt"
+/left_turn_path: "/home/ryan/ryan_brown_ws/src/control_nodes/overtaking_with_neural_network/leftTurnNetwork.pt"
+/lane_state_path: "/home/ryan/ryan_brown_ws/src/control_nodes/overtaking_with_neural_network/laneState.pt"
+/turning_direction_path: "/home/ryan/ryan_brown_ws/src/control_nodes/overtaking_with_neural_network/turningDirection.pt"
